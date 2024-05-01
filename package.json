@@ -1,0 +1,51 @@
+{
+  "name": "food_delivery",
+  "version": "1.0.0",
+  "description": "This is food delivery app",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajratnmore/food_delivery.git"
+  },
+  "keywords": [],
+  "author": "rajratn more",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajratnmore/food_delivery/issues"
+  },
+  "homepage": "https://github.com/rajratnmore/food_delivery#readme",
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/preset-react": "^7.24.1",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.3.0",
+    "autoprefixer": "^10.4.17",
+    "babel-jest": "^29.7.0",
+    "buffer": "^6.0.3",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "parcel": "^2.11.0",
+    "postcss": "^8.4.35",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@reduxjs/toolkit": "^2.2.3",
+    "firebase": "^10.11.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.22.0"
+  },
+  "browerslist": [
+    "last 2 versions"
+  ]
+}
